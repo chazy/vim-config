@@ -102,7 +102,7 @@
 	url = git://github.com/chazy/vim-armasm.git
 [submodule "bundle/vim-latex"]
 	path = bundle/vim-latex
-	url = 'git://github.com/chazy/vim-latex.git'
+	url = git://github.com/chazy/vim-latex.git
 [submodule "bundle/crdmesg"]
 	path = bundle/crdmesg
 	url = git://github.com/chazy/vim-crdmesg.git
