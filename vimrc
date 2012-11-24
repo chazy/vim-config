@@ -126,6 +126,7 @@ let localmapleader=","
 map <Leader>ss :setlocal spell!<cr>
 map <Leader>/ :nohlsearch<cr>
 map <Leader>l :MiniBufExplorer<cr>
+map <Leader>c :call setqflist([])<cr>
 
 if has("unix")
   let s:uname = system("uname")
