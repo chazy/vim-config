@@ -198,11 +198,13 @@ au BufNewFile,BufRead *.crdmesg set filetype=crdmesg
 """"""""""""""""""""""""""""""""""""""
 " Get rid of some very annoying warnings opening stdin
 
-compiler gcc
-set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ syscall\ process_vm_readv\ not\ implemented\ [-Wcpp]
-set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ syscall\ process_vm_writev\ not\ implemented\ [-Wcpp]
-set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ \"TODO:\ return_address\ should\ user\ unwind\ tables\"
-set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ \"TODO:\ return_address\ should\ user\ unwind\ tables\"\ [-Wcpp]
+"compiler gcc
+"set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ syscall\ process_vm_readv\ not\ implemented\ [-Wcpp]
+"set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ syscall\ process_vm_writev\ not\ implemented\ [-Wcpp]
+"set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ \"TODO:\ return_address\ should\ user\ unwind\ tables\"
+"set errorformat^=%-G<stdin>:%l:2:\ warning:\ #warning\ \"TODO:\ return_address\ should\ user\ unwind\ tables\"\ [-Wcpp]
+"set errorformat^=%-G<stdin>:%l:2:\ warning:\ \'offset.un\'\ may\ be\ used\ uninitialized\ in\ this\ function\ [-Wuninitialized]
+"set errorformat^=%-G<stdin>:%l:2:\ note:\ \'offset.un\'\ was\ declared\ here
 
 
 """""""""""""""""""""""""""""""""""""
