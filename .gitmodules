@@ -109,3 +109,6 @@
 [submodule "bundle/Rename"]
 	path = bundle/Rename
 	url = git://github.com/vim-scripts/Rename.git
+[submodule "bundle/stgit"]
+	path = bundle/stgit
+	url = https://github.com/chazy/vim-stgit.git
