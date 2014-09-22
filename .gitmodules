@@ -112,3 +112,6 @@
 [submodule "bundle/stgit"]
 	path = bundle/stgit
 	url = https://github.com/chazy/vim-stgit.git
+[submodule "bundle/file-line"]
+	path = bundle/file-line
+	url = https://github.com/bogado/file-line.git
