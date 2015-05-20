@@ -179,9 +179,9 @@ endif
 if has('gui_running')
 	let g:tex_flavor='latex'
 	let g:Tex_DefaultTargetFormat = 'pdf'
-	"TexLet g:Tex_TreatMacViewerAsUNIX = 1
-	"let Tex_ViewRuleComplete_pdf = '/usr/bin/open -a Preview $*.pdf' 
 	let g:Tex_ViewRule_pdf = 'Skim'
+	let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
+	let g:Tex_UseMakefile = 0
 endif
 imap <C-k> <Plug>IMAP_JumpForward
 
