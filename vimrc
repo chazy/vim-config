@@ -128,6 +128,7 @@ map <Leader>/ :nohlsearch<cr>
 map <Leader>l :MiniBufExplorer<cr>
 map <Leader>c :call setqflist([])<cr>
 map <Leader>d :set ft=muttdiff<cr>
+map <Leader>g :Ggrep "<C-r><C-w>"<CR>
 
 if has("unix")
   let s:uname = system("uname")
