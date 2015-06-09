@@ -182,6 +182,8 @@ if has('gui_running')
 	let g:Tex_ViewRule_pdf = 'Skim'
 	let g:Tex_CompileRule_pdf = 'pdflatex -synctex=1 --interaction=nonstopmode $*'
 	let g:Tex_UseMakefile = 0
+	let g:Tex_GotoError=0
+	autocmd BufRead *.log setlocal autoread
 endif
 imap <C-k> <Plug>IMAP_JumpForward
 
