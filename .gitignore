@@ -3,3 +3,4 @@
 /swap
 doc/tags
 bundle/*/doc
+*.tmp
