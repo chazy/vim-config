@@ -123,6 +123,7 @@ nnoremap <silent> <F6> :Rgrep <CR><CR><CR><CR>
 
 let mapleader=","
 let localmapleader=","
+xnoremap <leader>p "_dP
 map <Leader>ss :setlocal spell!<cr>
 map <Leader>/ :nohlsearch<cr>
 map <Leader>l :MiniBufExplorer<cr>
