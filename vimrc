@@ -232,3 +232,7 @@ endif
 " Remap C-n and C-p to to navigate the quickfix next-previous in normal mode
 nmap <C-p> :cprev<cr>
 nmap <C-n> :cnext<cr>
+
+" Support shortcut for going to window below
+let g:BASH_Ctrl_j = 'off'
+nnoremap <C-j> <C-W>j
