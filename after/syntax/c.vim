@@ -25,8 +25,8 @@ syn keyword cPreCondit br_read_lock br_read_unlock br_write_lock br_write_unlock
 syn keyword cPreCondit lg_local_lock lg_local_unlock lg_local_lock_cpu lg_local_unlock_cpu lg_global_lock lg_global_unlock lg_global_lock_online lg_global_unlock_online
 syn keyword cPreCondit spinlock_acquire spinlock_release granule_lock granule_unlock find_lock_granule find_lock_unused_granule try_granule_lock granule_unlock_transition
 
-syn keyword cPreCondit kmalloc vmalloc kfree vfree kzalloc __get_free_pages kmem_cache_alloc kmem_cache_free
-syn keyword cPreCondit up_write down_write up_read down_read down_read_nested down_write_nested down_write_killable down_read_trylock
+syn keyword cPreCondit kmalloc vmalloc kfree vfree kzalloc __get_free_pages kmem_cache_alloc kmem_cache_free vzalloc kvfree
+syn keyword cPreCondit up_write down_write up_read down_read down_read_nested down_write_nested down_write_killable down_read_killable down_write_trylock down_read_trylock
 
 syn keyword cPreCondit rcu_synchronize schedule schedule_timeout
 
